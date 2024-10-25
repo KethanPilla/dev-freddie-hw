@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+#game {
+  margin-bottom: 20px;
+}
+
+.choice {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.navbar {
+  background-color: #dddddd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+li{
+  float: left;
+  display: inline;
+padding: 20px 20px ;
+overflow: hidden;
+
+}
+
+li a{
+  display:block;
+}
