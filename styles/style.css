@@ -20,26 +20,43 @@ body {
   font-weight: bold;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
+/* Navigation Styles */
 .navbar {
   background-color: #dddddd;
   position: fixed;
   top: 0;
   width: 100%;
-
 }
 
-li{
-  float: left;
-  display: inline;
-  padding: 20px 20px ;
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
 }
 
-li a{
-  display:block;
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+  color: #fff;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #dddddd;
+  color: black;
+  text-align: center;
 }
