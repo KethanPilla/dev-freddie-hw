@@ -36,9 +36,8 @@ li a:hover {
 li{
   float: left;
   display: inline;
-padding: 20px 20px ;
-overflow: hidden;
-
+  padding: 20px 20px ;
+  overflow: hidden;
 }
 
 li a{
