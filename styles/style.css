@@ -25,6 +25,7 @@ body {
   background-color: #dddddd;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
 }
 
@@ -59,4 +60,8 @@ body {
   background-color: #dddddd;
   color: black;
   text-align: center;
+}
+
+#resetButton {
+  margin-bottom: 50px;
 }
