@@ -9,12 +9,18 @@
   <nav class="navbar">
     <ul>
       <li><a href="https://validator.nu/?doc=https%3A%2F%2Fgithub.com%2FKethanPilla%2Fdev-freddie-hw">Nu validator</a></li>
-      <li><a href="https://kethanpilla.github.io/dev-david-lab/" target="_blank">Other game</a></li>
+      <!-- <li><a href="https://kethanpilla.github.io/dev-david-lab/" target="_blank">Other game</a></li> -->
       <li><a href="https://github.com/KethanPilla/dev-freddie-hw" target="_blank">Source code</a></li>
     </ul>
   </nav>
   
-  <h1>Rock Paper Scissors</h1>
+  <header>
+    <h1>Rock Paper Scissors game</h1>
+    <p>Select the button you want to play your opponent</p>
+    <p>Rock wins over scissors</p>
+    <p>Scissors wins over paper</p>
+    <p>Paper wins over rock</p>
+  </header>
   
   <div id="game">
     <button class="choice" data-choice="rock">Rock</button>
@@ -23,6 +29,12 @@
   </div>
   
   <p id="result"></p>
+  <p>Scores:<br></p>
+  <p id="printUserScore"></p>
+  <p id="printComputerScore"></p>
+
+  <!-- Reset Button -->
+  <button id="resetButton" class="choice" style="display: none;">Play Again</button>
   
   <!-- Link to the JavaScript file -->
   <script src="scripts/script.js"></script>
